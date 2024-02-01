@@ -1,0 +1,52 @@
+/* Selector styles */
+.selector {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7f7f7;
+    color: #666;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 100px;
+  }
+
+  /* Input and button wrapper styles */
+  .input-wrapper {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  /* Input styles */
+  .input-wrapper input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7f7f7;
+    color: #666;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  /* Button styles */
+  .input-wrapper button {
+    border-radius: 5px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top:5px;
+    cursor: pointer;
+  }
+
+  /* Instructions styles */
+  .instructions {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+
+  .error::selection {
+    background: red;
+  }

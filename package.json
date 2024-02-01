@@ -1,0 +1,15 @@
+{
+  "name": "onesignal-preview-deploy-helper",
+  "version": "1.0.0",
+  "description": "Link to a dashboard preview deployment from the branch name",
+  "main": "background.js",
+  "repository": "git@github.com:collingreen/onesignal-preview-deploy-helper",
+  "author": "Collin Green",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "format": "yarn run prettier -w src/*.js"
+  }
+}

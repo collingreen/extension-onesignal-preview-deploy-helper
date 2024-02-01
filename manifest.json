@@ -1,0 +1,18 @@
+{
+  "name": "OneSignal - Dashboard Preview Deploy Helper",
+  "description": "Link to a preview deploy from any branch name.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "src/assets/icon.png"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "src/assets/icon.png"
+  }
+}
